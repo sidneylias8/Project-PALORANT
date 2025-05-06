@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALORANT</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <script src="newscript.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <img src="Assets/giotgames.png" alt="GiotGames Logo" class="logo">
+            </a>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="home.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="agents.html" class="nav-link">AGENTS</a></li>
+                <li class="nav-item"><a href="maps.html" class="nav-link">MAPS</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link">NEWS</a></li>
+                <li class="nav-item"><a href="report.html" class="nav-link">REPORT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <select id="select-news" onchange="navigateToNews()">
+            <option value="">Select News Category</option>
+            <option value="news_patchnotes.html">Patch Notes</option>
+            <option value="news_esports.html">Esports</option>
+            <option value="news_features.html">New Features</option>
+            <option value="news_events.html">Events</option>
+        </select>
+
+        
+    </main>
+</body>
+</html>

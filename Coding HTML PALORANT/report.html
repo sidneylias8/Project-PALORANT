@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALORANT</title>
+    <link rel="stylesheet" href="reportstyle.css">
+    <script src="reportscript.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <img src="Assets/giotgames.png" alt="GiotGames Logo" class="logo">
+            </a>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="home.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="agents.html" class="nav-link">AGENTS</a></li>
+                <li class="nav-item"><a href="maps.html" class="nav-link">MAPS</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link">NEWS</a></li>
+                <li class="nav-item"><a href="report.html" class="nav-link">REPORT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+        <section>
+            <div class="container">
+                <form class="report-bug" id="report-bug">
+                    <h1>REPORT BUG</h1> <br>
+                    <input type="text" placeholder="USERNAME" id="inputUsername" /> <br>
+                    <input type="email" placeholder="EMAIL" id="inputEmail" /> <br>
+        
+                    <select id="inputServer" required>
+                        <option value="">SERVER REGION</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="South Korea">South Korea</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="South America">South America</option>
+                    </select> <br>
+        
+                    <textarea id="inputDesc" placeholder="BUG DESCRIPTION"></textarea>
+        
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="inputCheckbox" /> 
+                        I agree to receive follow-up emails about this bug report.
+                    </label> <br>
+        
+                    <button type="submit" id="btnRegister" >SUBMIT</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer-content">
+                <div class="logo-giot">
+                    <img src="Assets/giotgames.png" alt="GiotGames Logo">
+                </div>
+
+                <div class="text-copyright">
+                    <p>© 2018-2027 Giot Games. All rights reserved.</p>
+                    <p>PALORANT is a trademark of Giot Games, Inc. All other trademarks belong to their respective owners.</p>
+                    <p>GIOT GAMES, PALORANT</p>
+                </div>
+
+                <div class="social-media">
+                    <a href="#"><img src="Assets/logoyt.png" alt="Youtube"></a>
+                    <a href="#"><img src="Assets/logoig.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
