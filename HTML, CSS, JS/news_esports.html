@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALORANT</title>
+    <link rel="stylesheet" href="esports_style.css">
+    <script src="esports_script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <img src="Assets/giotgames.png" alt="GiotGames Logo" class="logo">
+            </a>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="home.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="agents.html" class="nav-link">AGENTS</a></li>
+                <li class="nav-item"><a href="maps.html" class="nav-link">MAPS</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link">NEWS</a></li>
+                <li class="nav-item"><a href="report.html" class="nav-link">REPORT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <select class="select-news" id="select-news" onchange="navigateToNews()">
+                <option value="news.html">Patch Notes</option>
+                <option value="news_esports.html">Esports</option>
+                <option value="news_features.html">New Features</option>
+                <option value="news_events.html">Events</option>
+        </select>
+
+        <section class="esports1-container">
+            <div class="esports1">
+                <video controls>
+                    <source src="Assets/esports1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h1>INTENSE COMPETITION, TRAILER KICKOFF VCT</h1>
+                <p>Ramsboy, Chloe, Achilies, and Park Walker discuss which VCT
+                    regional kickoff event promises the most excitement and
+                    intense competition. Each of them brings a unique perspective,
+                    fueled by their favorite teams and bold predictions for the season.
+                </p>
+            </div>
+        </section>
+
+        <section class="esports2-container">
+            <div class="esports2">
+                <video controls>
+                    <source src="Assets/esports2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h1>CAPSULE SEASON VCT 2025</h1>
+                <p>The season capsule introduces a new approach for fans to show support,
+                    ensuring that revenue is shared equally across all VCT teams. This
+                    initiative aims to strengthen the ecosystem by providing every team
+                    with the resources to grow, regardless of their region or ranking.
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="footer">
+            <div class="footer-content">
+                <div class="logo-giot">
+                    <img src="Assets/giotgames.png" alt="GiotGames Logo">
+                </div>
+
+                <div class="text-copyright">
+                    <p>© 2018-2027 Giot Games. All rights reserved.</p>
+                    <p>PALORANT is a trademark of Giot Games, Inc. All other trademarks belong to their respective owners.</p>
+                    <p>GIOT GAMES, PALORANT</p>
+                </div>
+
+                <div class="social-media">
+                    <a href="#"><img src="Assets/logoyt.png" alt="Youtube"></a>
+                    <a href="#"><img src="Assets/logoig.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

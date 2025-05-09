@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALORANT</title>
+    <link rel="stylesheet" href="features_style.css">
+    <script src="features_script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <img src="Assets/giotgames.png" alt="GiotGames Logo" class="logo">
+            </a>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="home.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="agents.html" class="nav-link">AGENTS</a></li>
+                <li class="nav-item"><a href="maps.html" class="nav-link">MAPS</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link">NEWS</a></li>
+                <li class="nav-item"><a href="report.html" class="nav-link">REPORT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <select class="select-news" id="select-news" onchange="navigateToNews()">
+                <option value="news.html">Patch Notes</option>
+                <option value="news_esports.html">Esports</option>
+                <option value="news_features.html">New Features</option>
+                <option value="news_events.html">Events</option>
+        </select>
+
+        <section class="features1-container">
+            <div class="features1">
+                <img src="Assets/features1.png" alt="">
+                <h1>NEW MAP IS COMING: DUSKFALL!</h1>
+                <p>Get ready for an intense battle in Duskfall, the latest map in PALORANT!
+                    Explore a fog-covered abandoned city filled with hidden paths, vertical
+                    combat opportunities, and interactive elements that will challenge your
+                    strategy like never before. Are you ready to face the darkness?
+                </p>
+            </div>
+        </section>
+
+        <section class="features2-container">
+            <div class="features2">
+                <img src="Assets/features2.png" alt="">
+                <h1>EPISODE 5: BATTLEPASS</h1>
+                <p>Episode 5 Battlepass brings a variety of new cosmetics, including two
+                    exclusive skin bundles. One of them is the Venturi skin bundle,
+                    featuring a sleek and futuristic design. Check out all the exciting new
+                    features coming in this update!
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="footer">
+            <div class="footer-content">
+                <div class="logo-giot">
+                    <img src="Assets/giotgames.png" alt="GiotGames Logo">
+                </div>
+
+                <div class="text-copyright">
+                    <p>© 2018-2027 Giot Games. All rights reserved.</p>
+                    <p>PALORANT is a trademark of Giot Games, Inc. All other trademarks belong to their respective owners.</p>
+                    <p>GIOT GAMES, PALORANT</p>
+                </div>
+
+                <div class="social-media">
+                    <a href="#"><img src="Assets/logoyt.png" alt="Youtube"></a>
+                    <a href="#"><img src="Assets/logoig.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
